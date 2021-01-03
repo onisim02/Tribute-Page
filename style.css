@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  margin: auto;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/15/Civil_Rights_March_on_Washington%2C_D.C._%28Dr._Martin_Luther_King%2C_Jr._and_Mathew_Ahmann_in_a_crowd.%29_-_NARA_-_542015_-_Restoration.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+a {
+  color: #cce6ff;
+}
+
+a:visited {
+  color: #4da9ff;
+}
+
+#main {
+  margin: 0;
+  padding: 50px;
+  background: rgb(0, 13, 26, 0.8);
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 70%;
+  display: flex;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  padding: 10px;
+  margin: 0;
+  flex: 1;
+  display: flex;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  display: block;
+  font-size: 1.3rem;
+}
+
+#ic {
+  margin: auto;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+  }
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: center;
+  margin-bottom: 4em;
+  font-size: 3.5rem;
+  line-height: 0;
+}
+
+cite {
+  font-size: 1.6rem;
+}
+
+#ti {
+  padding-left: 15em;
+  padding-right: 15em;
+  margin-bottom: 6em;
+  margin-top: 6em;
+}
+
+header {
+  margin-bottom: 6em;
+}
